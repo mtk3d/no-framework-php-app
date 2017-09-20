@@ -72,5 +72,4 @@ try {
 } catch (ResourceNotFoundException $e) {
     $response = new Response('404 not Found', 404);
     $response->send();
-    
 }
